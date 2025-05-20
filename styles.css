@@ -6,6 +6,20 @@ body {
     background-color: #f8f8f8;
 }
 
+@media (max-width: 768px) {
+    .infographic-card {
+        position: relative; /* Prevents overlapping */
+        width: 100%; /* Makes it scale properly */
+        max-width: 400px; /* Keeps it manageable */
+        margin: 0 auto; /* Centers it */
+    }
+
+    .infographic-card img {
+        width: 100%; /* Ensures full-width scaling */
+        height: auto; /* Maintains aspect ratio */
+    }
+}
+
 /* Virsraksts */
 header {
     text-align: center;
