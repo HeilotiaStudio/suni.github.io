@@ -38,21 +38,19 @@ header {
 }
 
 .infographic-card {
-    position: absolute;
-    right: 20px; /* Aligns to the right */
-    top: 100px;
-    width: 300px; /* Adjust width */
-    padding: 15px;
+    width: 100%; /* Ensures it spans properly */
+    padding: 20px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-    text-align: center; /* Centers the text and image */
+    text-align: center; /* Centers text and image */
+    margin-bottom: 20px; /* Adds space before next section */
 }
 
 .infographic-card img {
-    max-width: 100%; /* Ensures it fits properly */
+    max-width: 100%; /* Makes it scale nicely */
     height: auto; /* Maintains aspect ratio */
-    margin-top: 10px; /* Adds spacing */
+    margin-top: 10px;
 }
 
 /* Resursi */
